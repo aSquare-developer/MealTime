@@ -14,6 +14,7 @@
 		3585ECDA23AB6B7400F49C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3585ECD923AB6B7400F49C82 /* Assets.xcassets */; };
 		3585ECDD23AB6B7400F49C82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3585ECDB23AB6B7400F49C82 /* LaunchScreen.storyboard */; };
 		75005BB123FB4D43000DDA94 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75005BB023FB4D43000DDA94 /* CoreDataStack.swift */; };
+		75005BB423FB4F33000DDA94 /* MealTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75005BB223FB4F33000DDA94 /* MealTime.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3585ECDC23AB6B7400F49C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3585ECDE23AB6B7400F49C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75005BB023FB4D43000DDA94 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		75005BB323FB4F33000DDA94 /* MealTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MealTime.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				3585ECD923AB6B7400F49C82 /* Assets.xcassets */,
 				3585ECDB23AB6B7400F49C82 /* LaunchScreen.storyboard */,
 				3585ECDE23AB6B7400F49C82 /* Info.plist */,
+				75005BB223FB4F33000DDA94 /* MealTime.xcdatamodeld */,
 			);
 			path = MealTime;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				3585ECD123AB6B7200F49C82 /* AppDelegate.swift in Sources */,
 				3585ECD323AB6B7200F49C82 /* SceneDelegate.swift in Sources */,
 				75005BB123FB4D43000DDA94 /* CoreDataStack.swift in Sources */,
+				75005BB423FB4F33000DDA94 /* MealTime.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +346,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75005BB223FB4F33000DDA94 /* MealTime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75005BB323FB4F33000DDA94 /* MealTime.xcdatamodel */,
+			);
+			currentVersion = 75005BB323FB4F33000DDA94 /* MealTime.xcdatamodel */;
+			path = MealTime.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3585ECC523AB6B7200F49C82 /* Project object */;
 }
