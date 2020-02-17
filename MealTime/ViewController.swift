@@ -8,10 +8,13 @@
 
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet var tableView: UITableView!
+    
+    var context: NSManagedObjectContext!
     
     var array = [Date]()
     
